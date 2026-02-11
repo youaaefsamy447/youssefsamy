@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Youssef Samy Essa - Portfolio</title>
+    <style>
+        /* Modern Clean Portfolio Theme */
+        :root {
+            --primary: #00e0ff;
+            --bg: #0d0d0d;
+            --card: #151515;
+            --text: #e8e8e8;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; font-family: "Poppins", sans-serif; }
+        body { background: var(--bg); color: var(--text); }
+
+        /* HEADER SECTION */
+        header {
+            text-align: center;
+            padding: 70px 20px 50px;
+            background: linear-gradient(135deg, #0f0f0f, #1a1a1a);
+        }
+        header img {
+            width: 170px;
+            height: 170px;
+            border-radius: 50%;
+            border: 4px solid var(--primary);
+            box-shadow: 0 0 30px rgba(0,224,255,0.3);
+        }
+        header h1 { font-size: 2.5rem; margin-top: 25px; font-weight: 700; }
+        header p { font-size: 1.2rem; opacity: 0.85; margin-top: 5px; letter-spacing: 1px; }
+
+        /* SECTIONS */
+        .section { padding: 60px 20px; max-width: 1100px; margin: auto; }
+        h2 { font-size: 2rem; margin-bottom: 25px; color: var(--primary); text-transform: uppercase; letter-spacing: 2px; }
+
+        /* BIO */
+        .bio p { font-size: 1.1rem; line-height: 1.8; opacity: 0.85; }
+
+        /* CONTACT */
+        .contact p { margin-bottom: 10px; font-size: 1.05rem; }
+        .contact a { color: var(--primary); text-decoration: none; }
+
+        /* SKILLS */
+        .skills-box { display: flex; flex-wrap: wrap; gap: 12px; }
+        .skills-box span {
+            background: var(--card);
+            padding: 10px 18px;
+            border-radius: 8px;
+            border: 1px solid #222;
+            font-size: 0.95rem;
+            transition: 0.3s;
+        }
+        .skills-box span:hover {
+            border-color: var(--primary);
+            transform: translateY(-3px);
+        }
+
+        /* PROJECTS */
+        .projects-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 25px;
+        }
+        .project-card {
+            background: var(--card);
+            border-radius: 12px;
+            overflow: hidden;
+            transition: 0.3s;
+            border: 1px solid #222;
+        }
+        .project-card:hover {
+            transform: translateY(-5px);
+            border-color: var(--primary);
+        }
+        .project-card img {
+            width: 100%;
+            height: 180px;
+            object-fit: cover;
+        }
+        .project-card .info {
+            padding: 18px;
+        }
+        .project-card h3 { margin-bottom: 8px; font-size: 1.2rem; }
+        .project-card p { opacity: 0.8; font-size: 0.95rem; margin-bottom: 10px; }
+        .project-card a { color: var(--primary); text-decoration: none; font-size: 0.95rem; }
+
+        /* FOOTER */
+        footer { text-align: center; padding: 30px; opacity: 0.6; margin-top: 40px; font-size: 0.9rem; }
+    </style>
+</head>
+<body>
+
+<header>
+    <img src="https://github.com/youaaefsamy447/youssefsamy/blob/main/623384369_1965722610987804_7241060681401370032_n.jpg?raw=1" />
+    <h1>Youssef Samy Essa</h1>
+    <p>Video Editor • Motion Graphics • Color Grading</p>
+</header>
+
+<section class="section bio">
+    <h2>Me</h2>
+    <p>
+        I am a dedicated Video Editor and Motion Graphics Artist focused on delivering clean,
+        cinematic, and impactful visuals. I work with brands and clients to create professional
+        edits, smooth transitions, and strong storytelling — bringing every project to life with
+        high-end color grading and precise detail.
+    </p>
+</section>
+
+<section class="section contact">
+    <h2>Contact</h2>
+    <p>📞 Phone: 01555876011</p>
+    <p>📧 Email: <a href="mailto:youssefsamy447@gmail.com">youssefsamy447@gmail.com</a></p>
+
+ <!--  <p>🔗 LinkedIn: <a href="https://www.linkedin.com/in/youssef-samy-88233b26b/" target="_blank">Click to open</a></p> -->
+</section>
+
+<section class="section skills">
+    <h2>Skills</h2>
+    <div class="skills-box">
+        <span>Adobe Premiere Pro</span>
+        <span>After Effects</span>
+        <span>DaVinci Resolve</span>
+        <span>CapCut</span>
+    </div>
+</section>
+
+<section class="section projects">
+    <h2>Projects</h2>
+    <p style="opacity:0.7; margin-bottom:20px;">These projects were created from very limited data, and we could have leveraged AI in many more ways.
+</p>
+
+    <div class="projects-grid">
+        <div class="project-card">
+            <img src="https://github.com/Moaz067/youssef-portfolio-/blob/main/2025-11-28%2009_44_52-Greenshot.png?raw=1" />
+            <div class="info">
+                <h3>Project 1</h3>
+                <a href="https://drive.google.com/file/d/1UbkRnkB3sJE-7vaz3UddREkvUFrbVPlK/view?usp=drive_link" target="_blank">View Project</a>
+            </div>
+        </div>
+        <!--Techno stone-->
+        <div class="project-card">
+            <img src="https://github.com/youaaefsamy447/youssefsamy/blob/main/23.JPG?raw=1" />
+            <div class="info">
+                <h3>Project 2</h3>
+                <a href="https://drive.google.com/drive/folders/1KJCCWLBj9aBQTA6f1w6aPE0zbyKgBwL8?hl=ar" target="_blank">View Project</a>
+            </div>
+        </div>
+        <!--customer point-->
+
+        <div class="project-card">
+            <img src="https://github.com/youaaefsamy447/youssefsamy/blob/main/3.JPG?raw=1" />
+            <div class="info">
+                <h3>Project 3</h3>
+                <a href="https://drive.google.com/drive/folders/19jWAm4_auWYBNb6lgV_K2hTwM5OkomR5" target="_blank">View Project</a>
+            </div>
+        </div>
+        <div class="project-card">
+            <img src="https://github.com/youaaefsamy447/youssefsamy/blob/main/4.JPG?raw=1" />
+            <div class="info">
+                <h3>Project 4</h3>
+                <a href="https://drive.google.com/drive/folders/1sfGcu3pBENufcWAJ1_PAPpTo7MSSfAsh" target="_blank">View Project</a>
+            </div>
+        </div>
+        <div class="project-card">
+            <img src="https://github.com/youaaefsamy447/youssefsamy/blob/main/5.JPG?raw=1" />
+            <div class="info">
+                <h3>Project 5</h3>
+                <a href="https://drive.google.com/file/d/18w9KiJ-N22v4jMDviiCIorjKhzJ1q7xK/view?usp=drive_link" target="_blank">View Project</a>
+            </div>
+        </div>
+    </div>
+    <p style="margin-top: 30px; text-align: center; font-size: 1rem; opacity: 0.85;">
+        Want to see more projects? <a href="https://drive.google.com/drive/folders/158lh1XypsCZ04UJBtMT6SaRLKmCg5h3J" target="_blank" style="color: var(--primary); text-decoration: underline;">Click here</a> to check them out!
+    </p>
+        </div>
+    </div>
+</section>
+
+<footer>© 2025 Youssef Samy – All Rights Reserved</footer>
+
+</body>
+</html>
